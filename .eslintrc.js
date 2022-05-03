@@ -20,6 +20,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
+    'prettier/prettier': ['error', { singleQuote: true }],
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -39,6 +40,6 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
-    'prettier/prettier': 'warn',
+    // 'max-len': [0, 80, 2, { ignoreUrls: true }],
   },
-}
+};
