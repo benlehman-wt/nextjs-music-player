@@ -11,9 +11,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   // const { serverRuntimeConfig } = getConfig();
 
   const user = await prisma.user.findUnique({
-    where: {
-      email,
-    },
+    where: { email },
   });
 
   if (user && bcrypt.compareSync(password, user.password)) {
