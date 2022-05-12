@@ -6,7 +6,6 @@ import {
   ListItem,
   ListIcon,
   Divider,
-  Center,
   LinkBox,
   LinkOverlay,
 } from '@chakra-ui/layout';
@@ -16,7 +15,6 @@ import {
   MdLibraryMusic,
   MdPlaylistAdd,
   MdFavorite,
-  MdAccountBox,
 } from 'react-icons/md';
 import { usePlaylist } from '../lib/hooks';
 
